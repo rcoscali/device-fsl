@@ -15,7 +15,7 @@ TARGET_BOOTLOADER_BOARD_NAME := SABRESD
 PRODUCT_MODEL := SABRESD-MX6DQ
 
 # Wifi
-BOARD_WLAN_VENDOR 			 := ATHEROS
+BOARD_WLAN_VENDOR 			 := INTEL
 # for atheros vendor
 ifeq ($(BOARD_WLAN_VENDOR),ATHEROS)
 BOARD_WLAN_DEVICE			 := ar6003
@@ -101,6 +101,6 @@ IMX_CAMERA_HAL_V2 := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 
-TARGET_BOOTLOADER_CONFIG := 6q:mx6q_sabresd_android_config 6dl:mx6dl_sabresd_android_config
+TARGET_BOOTLOADER_CONFIG := 6q:mx6qsabresd_config 6dl:mx6qsabresd_config
 
 

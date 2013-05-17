@@ -66,4 +66,4 @@ USE_GPU_ALLOCATOR := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 BOARD_KERNEL_CMDLINE := console=ttymxc0,115200 init=/init androidboot.console=ttymxc0 androidboot.hardware=freescale
-TARGET_BOOTLOADER_CONFIG := 6q:mx6q_arm2_android_config 6dl:mx6dl_arm2_config
+TARGET_BOOTLOADER_CONFIG := 6q:mx6qarm2_config 6dl:mx6qarm2_config
